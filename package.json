@@ -10,6 +10,7 @@
     "test": "npm run unit"
   },
   "dependencies": {
+    "firebase": "latest",
     "vue": "2.5.17"
   },
   "devDependencies": {

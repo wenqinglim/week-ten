@@ -7,10 +7,11 @@ var db = firebase
 var chartsRef = db.ref("charts");
 
 export default {
-  name: `App`,
+  name: "App",
   data() {
     return {
       currentChart: "localBarData",
+      title: "Bound to Fail",
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
